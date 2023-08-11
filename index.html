@@ -12,8 +12,8 @@
     <title>JourneyIn</title>
 </head>
 <style>
-    .rounded48 {
-        border-radius: 72px;
+    html {
+        scroll-behavior: smooth;
     }
 
     .title {
@@ -24,180 +24,286 @@
         font-family: 'Nothing You Could Do', cursive;
     }
 
+    .text-green {
+        color: #9ea85e
+    }
+
+    .bg-green {
+        background-color: #9ea85e;
+    }
+
+    .border-green {
+        border-color: #9ea85e;
+    }
+
+    .bg-light-green {
+        background-color: #fafbf7;
+    }
+
 </style>
 
 <body>
-    <div class="relative" id="section1">
-        <section class="h-screen  text-white flex space-x-12 items-center justify-center"
-            style="background-color: #9baa58;">
-            <img src="images/Logo-green.png" class="max-w-lg bg-white rounded-full" alt="">
+    <div class=" fixed w-full  bg-white  z-30">
+        <div class="max-w-6xl mx-auto  flex items-center justify-between px-8 rounded-3xl">
+            <img src="images/Logo-green.png" class="h-28 " alt="">
+            <div class="flex space-x-6">
+                <a href="#about"
+                    class="hover:font-bold hover:scale-110 transition delay-15 duration-300 ease-in-out">About me</a>
+                <a href="#journey"
+                    class="hover:font-bold hover:scale-110 transition delay-15 duration-300 ease-in-out">My journey</a>
+                <a href="#why" class="hover:font-bold hover:scale-110 transition delay-15 duration-300 ease-in-out">Why
+                    seek help</a>
+                <a href="#contact"
+                    class="hover:font-bold hover:scale-110 transition delay-15 duration-300 ease-in-out">Get in
+                    touch</a>
+            </div>
+        </div>
+    </div>
 
-            <div class="text-4xl ">
+    <section class="pt-24 flex space-x-12 items-center justify-center bg-white">
+        <!-- <img src="images/arc-02.png" class="absolute -top-4 right-0 rotate-10 " alt=""> -->
 
-                <p class=" text-7xl title "> A journey to </p>
-                <div class="text-7xl title relative">
-                    <p class="absolute top-0 transition delay-75" id="1">conscious living.</p>
-                    <p class="absolute top-0  transition delay-75" id="2">self empowerment.</p>
-                    <p class="absolute top-0  transition delay-75" id="3">self love.</p>
-
-
+        <div class="max-w-6xl mx-auto flex items-center">
+            <div class="relative">
+                <div class="absolute right-0 top-14 py-10 px-20 border-4  border-green rotate-6"
+                    style="border-radius: 80% 20% 80% 20%;">
                 </div>
+                <p class="uppercase font-bold my-4 text-green" style="letter-spacing: 10px;">Journey
+                    in</p>
+                <h1 class=" font-bold text-6xl "> Make your mind <br> a priority</h1>
+                <p class=" mt-8 max-w-xl text-xl">
+                    The pathway to wellness &amp; mental wellbeing through exploration &amp; discovering yourself
+                    &amp;
+                    equipping yourself with life skills to create a wonderful life ahead.
+                </p>
             </div>
+            <div class=""><img src="images/landing.png" class="md:max-w-2xl" alt=""></div>
+        </div>
 
-        </section>
+    </section>
 
-        <section
-            class="absolute top-0 h-screen w-screen rounded48 bg-yellow-100  flex items-center justify-center text-yellow-800"
-            id="section2">
-            <div class="max-w-6xl">
-                <p class="text-center text-2xl mb-4 uppercase tracking-widest">My Role</p>
-                <p class="text-center text-5xl title leading-normal"> A catalyst to your inner journey, helping you
-                    navigate
-                    through the
-                    subconscious
-                    terrain.</p>
-            </div>
-        </section>
-
-        <section
-            class="h-screen absolute top-0 w-screen rounded48 bg-green-100 flex items-center justify-center text-green-800"
-            id="section3">
-            <div class="max-w-6xl">
-                <p class=" text-5xl title">About <br> me</p>
-                <div class="grid grid-cols-2 space-x-12 text-lg mt-12">
-                    <p class=" leading-normal text-justify"> A psychologist,life coach &amp; a wellness
-                        enthusiast.
-                        I am also internationally certified &amp;
+    <section class="bg-light-green  py-24 px-8 text-white text-center" id="about">
+        <p class="uppercase font-bold my-4 text-green" style="letter-spacing: 10px;">About me</p>
+        <div class="relative">
+            <p class="font-bold text-6xl text-black">Meet Savita</p>
+            <img src="images/green_underline.svg"
+                class="absolute md:block hidden left-2/4 top-16 h-8 fill-current text-green-500" alt="">
+            <!-- <div class="w-12 h-1 absolute  top-20 left-1/2 bg-green"></div> -->
+            <img src="images/straight_arrow.png" class="absolute md:block hidden left-1/3 top-12 h-32" alt="">
+        </div>
+        <div class="max-w-6xl mx-auto mt-20">
+            <div class="md:flex space-x-6 items-center justify-center space-x-4">
+                <img src="images/savitha-08.png" class="max-w-md rounded-3xl" alt="">
+                <div class="text-xl text-left text-black space-y-6">
+                    <p>A psychologist,life coach &amp; a wellness enthusiast. I am
+                        also
+                        internationally certified
+                        &amp;
                         licensed by Heart Inspired USA as a Heal Your Life workshop leader &amp; trainer.
                         I offer world class content designed to create radical shifts and help people unfold a new
-                        spectrum of possibilities and live their best life.
+                        spectrum of possibilities and live their best life.</p>
+                    <p>
                         I work extensively with individuals to bring about a transformation in their lives through one
                         on one sessions, workshops and group counselling focussed on assisting people address
                         challenges in their personal and professional lives.
                         I create awareness to help people understand the merits of being healthy from inside.
                         Seamlessly integrating spirituality with psychology, in my practice I create a safe space to
-                        heal &amp; where people can learn and understand how incredibly wonderful they are.
+                        heal &amp; where people can learn and understand how incredibly wonderful they are.</p>
+
+                    <p>Spirituality does not remove us from life but leads us deeper into it…
+                        I passionately believe in my role as a catalyst in helping people discover their own love
+                        and power, inner wisdom and strength in giving themselves the gift of self discovery.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 max-w-6xl mx-auto" id="journey">
+        <p class="uppercase font-bold my-4 text-center text-green" style="letter-spacing: 10px;">My journey</p>
+        <div class="relative">
+            <h2 class="font-bold text-6xl text-center">My journey</h2>
+            <div class="w-12 h-1 absolute  top-20 left-1/2 bg-green"></div>
+
+        </div>
+        <div class="grid grid-cols-3 mt-20 gap-2">
+            <div class="bg-light-green px-6 py-8 rounded-tl-3xl flex items-center justify-center group">
+                <div class="group-hover:hidden"><img src="images/brain with a flower.png" class="h-32" alt=""></div>
+                <div class="hidden group-hover:block" id="1">
+                    <p class="text-2xl font-bold text-green">Hello</p>
+                    <p class="mt-4 text-xl">Hello everyone! My name is Savita &amp; in my practice of 16 years as a
+                        counsellor I ve had
+                        the privelege of journeying in the minds of thousands of people.</p>
+                </div>
+            </div>
+            <div class="bg-light-green px-6 py-8 rounded-tl-3xl flex items-center justify-center group">
+                <div class="group-hover:hidden"><img src="images/brain.png" class="h-32" alt=""></div>
+                <div class="hidden group-hover:block" id="1">
+                    <p class="text-2xl font-bold text-green">Covid</p>
+                    <p class="mt-4 text-xl">With Covid, virtual therapy was introduced on a massive scale &amp; I worked
+                        with Mindfit, the
+                        mental health vertical of Cultfit. With them I conducted 3500 sessions in 2 &amp; a half years.
                     </p>
-
-                    <p class=" leading-normal text-justify"> Spirituality does not remove us from life but leads us
-                        deeper
-                        into it… I
-                        passionately believe in my role as a catalyst in helping people discover
-                        their own love
-                        and power, inner wisdom and strength in giving themselves the gift of self discovery.
-
-                        .
-                        From this stemmed her endeavour “Journey IN” -a learning platform which offers one on
-                        one counselling sessions, therapy, workshops on everything that comes under the purview
-                        of mental &amp; emotional wellbeing. To understand the mind- body connection.
-                        Through Journey In, she offers well researched strategies designed to create shifts &amp; help
-                        people live their best life.
-                        I ve worked extensively with individuals guiding them through their journey of
-                        transformation.</p>
                 </div>
             </div>
-        </section>
-
-        <section class="h-screen absolute top-0 w-screen rounded48 bg-yellow-100 flex items-center justify-center"
-            id="section4">
-            <div class="max-w-6xl space-y-12 mx-auto">
-                <div class="grid grid-cols-3">
-                    <div class="relative">
-                        <p class="title absolute -top-40 right-0 opacity-5" style="font-size: 15rem;">1</p>
-                        <p class="text-5xl title leading-normal">Counsellor</p>
-                        <p class="mt-10">In my practice of 16 years as a counsellor I ve had
-                            the privelege of journeying in the minds of thousands of people.</p>
-                    </div>
-                    <div class=""></div>
-                    <div class=""></div>
-
-                </div>
-                <div class="grid grid-cols-3">
-                    <div class=""></div>
-                    <div class="relative">
-                        <p class="title absolute -top-40 opacity-5 right-0" style="font-size: 15rem;">2</p>
-                        <p class="text-5xl title leading-normal">Covid</p>
-                        <p class="mt-10">With Covid, virtual therapy was introduced on a massive scale &amp; I worked
-                            with
-                            Mindfit, the
-                            mental health vertical of Cultfit. With them I conducted 3500 sessions in 2 &amp; a half
-                            years.
-                        </p>
-                    </div>
-                    <div class=""></div>
-                </div>
-                <div class="grid grid-cols-3">
-                    <div class="col-span-2 uppercase flex items-end text-2xl" style="letter-spacing: 2rem;">my
-                        journey</div>
-
-                    <div class="relative">
-                        <p class="title absolute -top-40 opacity-5 right-0" style="font-size: 15rem;">3</p>
-                        <p class="text-5xl title leading-normal">Change</p>
-                        <p class="mt-10">I was able to impact lives quite dramatically &amp; then came a desire that why
-                            not
-                            reach out
-                            to many more people.
-                            Things are changing rapidly around us &amp; the world we knew no longer exists.
-                        </p>
-                    </div>
-
+            <div class="bg-light-green px-6 py-8 rounded-tl-3xl flex items-center justify-center group">
+                <div class="group-hover:hidden"><img src="images/butterfly.png" class="h-32" alt=""></div>
+                <div class="hidden group-hover:block" id="1">
+                    <p class="text-2xl font-bold text-green">Change</p>
+                    <p class="mt-4 text-xl">Things are changing rapidly around us &amp; the world we knew no longer
+                        exists.
+                        The World Health Organisation has also alerted us on the next pandemic likely to hit us,
+                        the mental health pandemic.</p>
                 </div>
             </div>
-        </section>
-
-        <section class="h-screen absolute top-0 w-screen rounded48 bg-green-100  flex items-center justify-center"
-            id="section5">
-            <div class="max-w-6xl space-y-12 mx-auto">
-                <div class="grid grid-cols-3">
-                    <div class="col-span-2 uppercase text-2xl" style="letter-spacing: 2rem;">my
-                        journey</div>
-                    <div class="relative">
-                        <p class="title absolute -top-40 right-0 opacity-5" style="font-size: 15rem;">4</p>
-                        <p class="text-5xl title leading-normal">JourneyIn</p>
-                        <p class="mt-10">
-                            Journey In is conceptualised as part of my vision for enabling easy access to the elusive
-                            subject of mental health.So I call Journey In my Covid baby, born out of my deep desire to
-                            spread my healing
-                            work. Journey in is your gateway to your well being &amp; my contribution to making the
-                            world a
-                            happier place.</p>
-                    </div>
-
-
-                </div>
-                <div class="grid grid-cols-3">
-                    <div class=""></div>
-                    <div class="relative">
-                        <p class="title absolute -top-40 opacity-5 right-0" style="font-size: 15rem;">5</p>
-                        <p class="text-5xl title leading-normal">Therapy</p>
-                        <p class="mt-10">
-                            With over 10,000 sessions, what emerged was that how little people knew about
-                            themselves.
-                            Therapy helps to become aware of oneself, of one’s patterns &amp; conditioning.
-                            Therapy helps to empower oneself with tools &amp; strategies to thrive despite challenging
-                            situations in life.
-                        </p>
-                    </div>
-                    <div class=""></div>
-                </div>
-                <div class="grid grid-cols-3">
-
-                    <div class="relative">
-                        <p class="title absolute -top-40 opacity-5 right-0" style="font-size: 15rem;">6</p>
-                        <p class="text-5xl title leading-normal">The journey</p>
-                        <p class="mt-10">
-                            I m sure you will change your statement from “its easier said than done” to hey..with this
-                            knowledge its not that difficult at all.
-                            I urge everyone at whatever age you are to go through journey in as I strongly believe that
-                            the most important journey that we ever will take is the journey to self love.
-                        </p>
-                    </div>
-                    <div class=""></div>
-                    <div class=""></div>
+            <div class="bg-light-green px-6 py-8 rounded-tl-3xl flex items-center justify-center group">
+                <div class="group-hover:hidden"><img src="images/brain_flower.png" class="h-32" alt=""></div>
+                <div class="hidden group-hover:block" id="1">
+                    <p class="text-2xl font-bold text-green">JourneyIn</p>
+                    <p class="mt-4 text-xl">Journey In is conceptualised as part of my vision for enabling easy access
+                        to the elusive
+                        subject of mental health.</p>
                 </div>
             </div>
-        </section>
-    </div>
+            <div class="bg-light-green px-6 py-8 rounded-tl-3xl flex items-center justify-center group">
+                <div class="group-hover:hidden"><img src="images/tree&leaves.png" class="h-32" alt=""></div>
+                <div class="hidden group-hover:block" id="1">
+                    <p class="text-2xl font-bold text-green">Covid baby</p>
+                    <p class="mt-4 text-xl">So I call Journey In my Covid baby, born out of my deep desire to spread my
+                        healing work.
+                        With over 10,000 sessions, what emerged was that how little people knew about
+                        themselves.</p>
+                </div>
+            </div>
+            <div class="bg-light-green px-6 py-8 rounded-tl-3xl flex items-center justify-center group">
+                <div class="group-hover:hidden"><img src="images/cup_flower.png" class="h-32" alt=""></div>
+                <div class="hidden group-hover:block" id="1">
+                    <p class="text-2xl font-bold text-green">Therapy</p>
+                    <p class="mt-4 text-xl">Therapy helps to become aware of oneself, of one’s patterns &amp;
+                        conditioning.
+                        Therapy helps to empower oneself with tools &amp; strategies to thrive despite challenging
+                        situations in life.
+                        Skills you will be so glad you learnt , skills that will stand you in good stead for the rest of
+                        your life.</p>
+                </div>
+            </div>
+            <div class=""></div>
+            <div class="bg-light-green px-6 py-8 rounded-tl-3xl flex items-center justify-center group">
+                <div class="group-hover:hidden"><img src="images/hands and butterfly-14.png" class="h-32" alt=""></div>
+                <div class="hidden group-hover:block" id="1">
+                    <p class="text-2xl font-bold text-green">Journey to self love</p>
+                    <p class="mt-4 text-xl">I m sure you will change your statement from “its easier said than done” to
+                        hey..with this
+                        knowledge its not that difficult at all.
+                        I urge everyone at whatever age you are to go through journey in as I strongly believe that
+                        the most important journey that we ever will take is the journey to self love.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="py-32  bg-light-green" id="why">
+        <div class="max-w-6xl mx-auto">
+            <p class="uppercase font-bold my-4 text-center text-green" style="letter-spacing: 10px;">Why seek help</p>
+            <div class="relative">
+                <h2 class="font-bold text-6xl text-center">Why seek help</h2>
+                <img src="images/green_underline.svg"
+                    class="absolute md:block hidden left-2/4 top-16 h-8 fill-current text-green-500" alt="">
+
+                <img src="images/swiggly_arrow.png"
+                    class="absolute md:block hidden right-1/4 top-12 h-32 transform -rotate-45" alt="">
+            </div>
+            <div class="space-y-4 mt-6">
+                <div class=" py-6 px-8 rounded-2xl text-xl group group-focus:bg-green-300">
+                    <div class="grid grid-cols-2 items-center justify-center">
+                        <div class=""><img src="images/rainy_cloud.png" alt=""></div>
+                        <div class="mt-4 space-y-4 ">
+                            <p class="font-bold text-2xl">Why take this journey</p>
+                            <p class="text-justify"> Most people are afraid of their own emotions. They are so afraid to
+                                be
+                                with
+                                themselves.
+                                They constantly distract themselves so that they don’t feel their emotions.
+                                The more you run away from your emotions, the more disconnected we feel.
+                                Often we feel demotivated in life, we are just existing instead of being alive…
+                                Often we harbour a lot of negative emotions such as anger, resentment, hatred, fear,
+                                sadness, etc inside us…which eventually shows up in our health as aliments such as
+                                depression, anxiety, blood pressure issues, IBS, cancer..
+                                The root cause of most ailments points to our mental &amp; emotional health.</p>
+                        </div>
+                        <div class="mt-4 space-y-4 ">
+                            <p class="font-bold text-2xl">How it helps</p>
+
+
+                            <li>we get a chance to offload our emotional baggage that we carry from
+                                the past</li>
+                            <li>therapy brings clarity</li>
+                            <li>to build mental strength/mental immunity/resilience</li>
+                            <li>to move from surviving to thriving</li>
+                            <li>to sharpen the saw</li>
+                            <li>to widen your perspective</li>
+                            <li>to build EQ</li>
+                            <li>to strengthen the inner game.</li>
+                            <li>if you are going through a difficult phase. Seeking help gets you out faster from your
+                                situation.</li>
+
+
+                        </div>
+                        <div class=""><img src="images/sunny_cloud.png" alt=""></div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="py-24  text-white flex space-x-12 items-center justify-center bg-white" id="contact">
+        <div class="max-w-6xl mx-auto">
+            <img src="images/cta.png" alt="">
+            <div class="text-black flex justify-between items-center">
+                <div class="">
+                    <p class="uppercase font-bold my-4 text-green" style="letter-spacing: 10px; ">Need some help?
+                    </p>
+                    <h1 class="font-bold text-6xl"> Find your <br> next therapist</h1>
+                </div>
+                <div class="">
+                    <p class=" mt-8 max-w-xl text-xl">
+                        Take the first step towards healing and happiness. Start your journey to better mental health
+                        today!
+                    </p>
+                    <div class="flex space-x-4 mt-6">
+                        <a href="">
+                            <div class="p-4 bg-light-green rounded-full "><svg class="fill-current text-green h-6"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                                </svg></div>
+                        </a>
+                        <a href="">
+                            <div class="p-4 bg-light-green rounded-full "><svg xmlns="http://www.w3.org/2000/svg"
+                                    class="fill-current text-green h-6" viewBox="0 0 24 24">
+                                    <path
+                                        d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z" />
+                                </svg></div>
+                        </a>
+                        <a href="">
+                            <div class="p-4 bg-light-green rounded-full"><svg xmlns="http://www.w3.org/2000/svg"
+                                    class="fill-current text-green h-6" viewBox="0 0 24 24">
+                                    <path
+                                        d="M6.176 1.322l2.844-1.322 4.041 7.89-2.724 1.341c-.538 1.259 2.159 6.289 3.297 6.372.09-.058 2.671-1.328 2.671-1.328l4.11 7.932s-2.764 1.354-2.854 1.396c-7.862 3.591-19.103-18.258-11.385-22.281zm1.929 1.274l-1.023.504c-5.294 2.762 4.177 21.185 9.648 18.686l.971-.474-2.271-4.383-1.026.5c-3.163 1.547-8.262-8.219-5.055-9.938l1.007-.497-2.251-4.398z" />
+                                </svg></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
 
 
@@ -221,39 +327,6 @@
 
         // }, 2000);
 
-        let tl = gsap.timeline({
-            onComplete: function () {
-                this.restart();
-            }
-        }).play()
-        for (k = 1; k < 4; k++) {
-            tl.from(document.getElementById(k), { opacity: 0, duration: 1 })
-            tl.to(document.getElementById(k), { opacity: 1, duration: 1 })
-            tl.to(document.getElementById(k), { opacity: 0, duration: 1 })
-
-        }
-        // -----------------section1--------------
-        let tl1 = gsap.timeline({
-            scrollTrigger: {
-                trigger: '#section1',
-                pin: true,
-                scrub: 2
-            }
-        });
-
-        tl1.from('#section2', { yPercent: 100 })
-        tl1.from('#section3', { yPercent: 100 })
-        tl1.from('#section4', { yPercent: 100 })
-        tl1.from('#section5', { yPercent: 100 })
-
-        // -----------------section2--------------
-        // let tl2 = gsap.timeline({
-        //     scrollTrigger: {
-        //         trigger: '#section2',
-        //         pin: true,
-
-        //     }
-        // });
 
 
     </script>
